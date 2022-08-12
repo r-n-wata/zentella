@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import '../css/About.css'
 import Aos from "aos";
 import 'aos/dist/aos.css'
@@ -7,33 +7,15 @@ import ReactPlayer from "react-player"
 
 export default function About(){
 
-    const [musicData, setMusicData] = useState([])
-
-    // "react-scripts --openssl-legacy-provider start"
-    // useEffect(async() => {
-    //     try{
-    //          const data = await fetch('https://soundcloud.com/forss/flickermood');
-    //     const res = data
-    //     setMusicData(res)
-    //     }catch(err){
-    //         console.log(err)
-    //     }
-       
-
-    // }, [])
-
     useEffect(() => {
         Aos.init({ offset:400, duration: 2000 })
     }, [])
 
 
 
-    console.log(musicData)
+    
     return(
         <section className="about" id="about">
-            {/* <section className="about--left">
-                
-            </section> */}
 
             <section data-aos='fade-right' className="about--right">
 

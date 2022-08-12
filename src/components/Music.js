@@ -1,13 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import '../css/Music.css'
-import { motion } from "framer-motion"
 import ReactPlayer from "react-player"
 import Aos from "aos";
 import 'aos/dist/aos.css'
 
 export default function Music(){
-
-    const [isActive , setIsActive] = useState(false)
 
     const background = require('../imgs/background-light.avif')
 
