@@ -142,7 +142,7 @@ mix-blend-mode: normal;
    .music-souncloud-widget{
         height:10rem;
         width:50%;
-        align-self: start;
+        align-self: end;
  
         
     }
@@ -168,7 +168,7 @@ mix-blend-mode: normal;
 
 }
 
-@media (max-width:380px){
+@media (max-width:390px){
     .music{
         height:150vh;
        
