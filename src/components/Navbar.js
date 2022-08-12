@@ -16,7 +16,7 @@ export default function Navbar(){
     return (
         <div className="navbar" style={{width: !open && '20%'}}>    
             <div className="navbar--toggle">
-                {open && <img src='/images/icons/openNav.png' className="openNav--img" onClick={toggleOpenClose}/> }
+                {open && <img src='/images/icons/openNav.png' alt="open nav icon" className="openNav--img" onClick={toggleOpenClose}/> }
                 {/* // : <div className="close--img-container">
                 //     */}
                 {/* //     
@@ -27,7 +27,7 @@ export default function Navbar(){
                     <div className="navbar--menu-options">
                         <div className="close--img-container">
 
-                           <img src="/images/icons/closenav.png"    alt="close nav"onClick={toggleOpenClose} className="closeNav--img" />   
+                           <img src="/images/icons/closenav.png"    alt="close nav icon" onClick={toggleOpenClose} className="closeNav--img" />   
                         </div>
                        
                       
