@@ -102,7 +102,7 @@ mix-blend-mode: normal;
         height:100vh;
         display:flex;
         flex-direction: column;
-        justify-content:center ;
+        /* justify-content:center ; */
         overflow: hidden;
         padding-bottom:3rem;
      
@@ -115,6 +115,7 @@ mix-blend-mode: normal;
     
     .music--right{
         width:70%;
+        margin-top:5rem;
         padding:2.5rem 1.5rem;
         /* height:auto; */
         background-color: black;
@@ -130,6 +131,7 @@ mix-blend-mode: normal;
         position: absolute;
         top:-2rem;
         overflow-x: hidden;
+        /* display: none; */
         
     
     }
@@ -138,8 +140,8 @@ mix-blend-mode: normal;
         z-index: 4;
         width:50%;
         height:10rem;
-        top:37rem;
-        right:0rem;
+        top:30rem;
+        /* right:0rem; */ 
  
         
     }
@@ -186,7 +188,7 @@ mix-blend-mode: normal;
 
 @media (max-width:390px){
     .music{
-        height:130vh;
+        height:100vh;
        
      
     }
