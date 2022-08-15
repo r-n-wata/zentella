@@ -31,7 +31,7 @@ export default function About(){
             <div data-aos='fade-left' className="soundcloud-player">
 
                 <ReactPlayer
-                    url="https://soundcloud.app.goo.gl/RKhe7"
+                    url="https://soundcloud.com/javier-zentella/amnesia"
                     className='react-player'
                 />
 

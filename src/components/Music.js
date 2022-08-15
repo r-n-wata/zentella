@@ -24,7 +24,7 @@ export default function Music(){
             {!more && <div data-aos='fade-right' className=" music-souncloud-widget" id='widget'>
 
                 <ReactPlayer
-                    url="https://soundcloud.app.goo.gl/LmytY"
+                    url="https://soundcloud.com/javier-zentella/sh-sh-sh"
                     className='react-player'
                 />
 
