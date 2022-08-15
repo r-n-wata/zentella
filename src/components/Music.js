@@ -24,7 +24,7 @@ export default function Music(){
             {!more && <div data-aos='fade-right' className=" music-souncloud-widget" id='widget'>
 
                 <ReactPlayer
-                    url="https://soundcloud.com/glennmorrison/beethoven-moonlight-sonata"
+                    url="https://soundcloud.app.goo.gl/LmytY"
                     className='react-player'
                 />
 

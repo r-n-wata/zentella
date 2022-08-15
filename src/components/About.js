@@ -31,7 +31,7 @@ export default function About(){
             <div data-aos='fade-left' className="soundcloud-player">
 
                 <ReactPlayer
-                    url="https://soundcloud.com/glennmorrison/beethoven-moonlight-sonata"
+                    url="https://soundcloud.app.goo.gl/RKhe7"
                     className='react-player'
                 />
 
