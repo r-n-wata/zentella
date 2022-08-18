@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import '../css/Carousel.css'
 import { carouselImages } from "../data/carouselImgs";
-// import { Carousel } from 'react-responsive-carousel';
-// import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import BtnSlider from './BtnSlider'
 
 
@@ -30,7 +28,7 @@ export default function SliderShow() {
 
   const showImages = carouselImgs.map((obj, i) =>{
    return( <div className={slideIndex === i +1 ? 'slide active-anim' : 'slide'} key={obj.key} >
-      <img src={obj.image}/>
+      <img src={obj.image} alt='artist photos'/>
     </div>
    )
   })

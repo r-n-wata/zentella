@@ -65,7 +65,7 @@
 
 
 /* -------------------------- */
-
+/* laptop */
 @media(max-width:1200px){
     .about{
         height:130vh;
@@ -79,6 +79,7 @@
         height:13rem;
     }
 }
+/* tablet */
 @media(max-width:1000px){
     .about{
         height:60vh;
