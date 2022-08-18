@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import '../css/Carousel.css'
 import leftArrow from '../imgs/slider-icons/left-arrow.svg'
 import rightArrow from '../imgs/slider-icons/right-arrow.svg'
@@ -11,7 +11,7 @@ export default function SliderShow({ direction, moveSlide }) {
     <button onClick={moveSlide}
     className={direction === 'next' ? "btn-slide next": "btn-slide prev"}>
 
-        <img src={direction === 'next' ? rightArrow : leftArrow}/>
+        <img src={direction === 'next' ? rightArrow : leftArrow} alt='slide buttons'/>
     </button>
 
   );

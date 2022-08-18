@@ -6,7 +6,7 @@ import BtnSlider from './BtnSlider'
 
 
 export default function SliderShow() {
-  const [carouselImgs, setCarouselImgs] = useState(carouselImages)
+  const carouselImgs = carouselImages
 
   const [slideIndex, setSlideIndex] = useState(1)
 
