@@ -6,8 +6,9 @@ import BtnSlider from './BtnSlider'
 
 
 export default function SliderShow() {
-  const carouselImgs = carouselImages
+  const [carouselImgs, setCarouselImgs] = useState(carouselImages)
 
+  
   const [slideIndex, setSlideIndex] = useState(1)
 
   const nextSlide = () =>{
@@ -15,7 +16,7 @@ export default function SliderShow() {
       setSlideIndex(slideIndex + 1)
     }else if(slideIndex === carouselImgs.length){
       setSlideIndex(1)
-    }
+    }setCarouselImgs(carouselImages)
   }
 
   const prevSlide = () =>{
