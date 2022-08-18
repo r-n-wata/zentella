@@ -30,7 +30,7 @@ export default function Music(){
 
             </div>}
               
-            <section data-aos='fade-left' className="music--right">
+            <section data-aos='fade-left' className={more ? "music--right full-height" : "music--right less-height"}>
                 <h2 className="music--title">Sobre su música:</h2>
                 <p className={ more ? 'music--info full-height' : "music--info less-height" }>Es una sutil mezcla entre lo moderno y lo antiguo, reflexivo y lúdico, puede notarse influencias de compositores como Jorge Reyes reinventando patrones musicales que nos conecta con las raíces mexicanas precolombinas , así cómo ritmos folklóricos de Tabasco y Veracruz; el flamenco, la música balcánica, el jazz, rock progresivo, funk así como géneros{!more && '...'} más modernos como el low-fi hiphop, neosoul y trap; el objetivo principal de su música es tocar el alma de quienes lo escuchan y sensibilizar el espíritu con el fin de liberarlo y entregarse enteramente a su disfrute. Otros artistas que lo han influenciado podrían ser, Miles Davis, The badplus, Yasser Tejeda, así como de su colega Juan Miguel Rivera.</p>
                 <span className="hidden more-btn" onClick={ handleClick }>{ more ? 'less' : 'more'}</span>

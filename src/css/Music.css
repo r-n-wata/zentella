@@ -208,6 +208,7 @@
     
     .music--right{
         width:70%;
+        height: 60%;
         margin-top:5rem;
         padding:2.5rem 1.5rem;
         background-color: black;
@@ -255,12 +256,12 @@
     }
 
     .full-height{
-        height:auto;
+        height:80%;
         transition: .2s ease-in;
     }
 
     .less-height{
-        height:14rem;
+        height:60%;
         overflow-y: hidden;
         transition: .2s ease-in;
     }
