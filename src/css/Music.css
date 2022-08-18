@@ -1,8 +1,11 @@
 .music{
-    height:110vh;
+    height:130vh;
     display:flex;
     position:relative;
     align-items: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
     
 }
 
@@ -82,9 +85,112 @@
 
 
 /* ------------------------------ */
+/* laptop */
+@media(max-width:1200px){
+    .music{
+        height:140vh;
+        /* padding:10rem 0; */
+    }
+    .music--right{
+        width:60%;
+        height:70%
+    }
 
+    .music-souncloud-widget{
+        height:13rem;
+    }
+    
+    .music--right p {
+        width:95%;
+    }
+}
 
-@media (max-width:500px){
+/* tablet */
+@media(max-width:1000px){
+
+    .music{
+        height:80vh;
+        display:flex;
+        flex-direction: column;
+        overflow: hidden;
+        padding-bottom:3rem;
+     
+    }
+    
+
+    .music--right{
+        width:70%;
+        height:40%;
+        margin-top:10rem;
+        padding:2.5rem 1.5rem;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        transition: 1s ease-in;
+
+    }
+    .background{
+        width:300%;
+        height:110%;
+        position: absolute;
+        top:-2rem;
+        overflow-x: hidden;  
+    
+    }
+
+   .music-souncloud-widget{
+        z-index: 4;
+        width:30%;
+        height:10rem;
+        top:33rem;
+        left:-2rem; 
+ 
+        
+    }
+    
+    .music--title{
+        width:100%;
+        font-family: 'Italiana';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5rem;;
+        line-height: 59px;
+        margin-bottom: .3rem;
+    
+    
+    }
+    
+    .music--right p{
+        width:100%;
+        font-size: .7rem;
+        line-height: 25px;
+
+    }
+
+    /* .full-height{
+        height:auto;
+        transition: .2s ease-in;
+    }
+
+    .less-height{
+        height:14rem;
+        overflow-y: hidden;
+        transition: .2s ease-in;
+    }
+
+    .more-btn{
+        display: flex;
+        padding:.5rem;
+    }
+    
+    .more-btn:hover{
+        background-color: rgb(19, 19, 19, .5);
+    } */
+}
+
+/* phones */
+@media (max-width:550px){
 
     .music{
         height:100vh;
@@ -124,8 +230,8 @@
         z-index: 4;
         width:50%;
         height:10rem;
-        top:30rem;
-        /* right:0rem; */ 
+        top:33rem;
+        left:-2rem; 
  
         
     }
@@ -169,10 +275,16 @@
     }
 
 }
-
+@media (max-width:420px){
+    .music{
+        height:100vh;
+       
+     
+    }
+}
 @media (max-width:390px){
     .music{
-        height:120vh;
+        height:100vh;
        
      
     }
@@ -188,3 +300,12 @@
     
     }
 }
+
+
+
+@media (max-width:380px){
+    .music{
+        height:120vh;
+    }
+}
+

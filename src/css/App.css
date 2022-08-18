@@ -1,9 +1,14 @@
 *{
     box-sizing: border-box;
     margin:0;
-    overflow-x: hidden;
+    
+    /* overflow-y: hidden; */
 }
 
 body{
     overflow-x: hidden !important;
 }
+
+/* .music *, .about *{
+    overflow-x: hidden;
+} */

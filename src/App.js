@@ -3,6 +3,7 @@ import HomePage from './components/HomePage'
 import About from './components/About'
 import Music from './components/Music'
 import Footer from './components/Footer'
+import SliderShow from './components/Carousel'
 import './css/App.css'
 
 export default function App(){
@@ -11,6 +12,7 @@ export default function App(){
         <>
             <HomePage />
             <About />
+            <SliderShow/>
             <Music />
             <Footer />
         </>
