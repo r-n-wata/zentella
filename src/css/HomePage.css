@@ -122,8 +122,8 @@
 
     width:20%;
         gap:1.5rem;
-        padding:0 0 1.5rem 1.5rem;;
-        height:85%;
+        padding:0 0 0rem 1.7rem;;
+        height:95%;
         
     }
     .main--social a{
@@ -148,7 +148,7 @@
       }
     
     .main--heading{
-       margin-top:-5rem;
+       /* margin-top:-5rem; */
         /* width:75%; */
         padding-right:1.5rem;
       
@@ -157,14 +157,14 @@
     }
     
     .main--firstname{
-        font-size:5rem;
+        font-size:4rem;
         
     
     }
     
     
     .main--surname{
-        font-size:3rem;
+        font-size:5rem;
         
     }
     

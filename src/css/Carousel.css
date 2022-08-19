@@ -11,7 +11,22 @@
  
   @media screen and (max-width: 1000px){
     .container-slider {
-      height: 40vh;
+      height: 50vh;
+    }
+
+  }
+
+  @media (max-width:500px){
+
+    .btn-slide{
+      width:2.5rem !important;
+      height:2.5rem !important
+    }
+    .btn-slide img {
+      width: 1rem;
+      height: 1rem;
+      pointer-events: none;
+      /* filter: brightness(50%); */
     }
   }
   .slide {

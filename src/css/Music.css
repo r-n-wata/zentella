@@ -168,25 +168,6 @@
 
     }
 
-    /* .full-height{
-        height:auto;
-        transition: .2s ease-in;
-    }
-
-    .less-height{
-        height:14rem;
-        overflow-y: hidden;
-        transition: .2s ease-in;
-    }
-
-    .more-btn{
-        display: flex;
-        padding:.5rem;
-    }
-    
-    .more-btn:hover{
-        background-color: rgb(19, 19, 19, .5);
-    } */
 }
 
 /* phones */
@@ -194,66 +175,25 @@
 
     .music{
         height:100vh;
-        display:flex;
-        flex-direction: column;
-        overflow: hidden;
-        padding-bottom:3rem;
+        
      
     }
     
     .music--right{
-        width:100%;
-     
-    }
-    
-    .music--right{
-        width:70%;
-        height: 60%;
+      
+        height: 50%;
         margin-top:5rem;
-        padding:2.5rem 1.5rem;
-        background-color: black;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        transition: 1s ease-in;
+     
+    }
 
-    }
-    .background{
-        width:300%;
-        height:110%;
-        position: absolute;
-        top:-2rem;
-        overflow-x: hidden;  
     
-    }
 
    .music-souncloud-widget{
-        z-index: 4;
-        width:50%;
-        height:10rem;
-        top:33rem;
-        left:-2rem; 
- 
-        
+        width:50%;   
+        top:39rem;
     }
-    
-    .music--title{
-        font-family: 'Italiana';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 2.5rem;;
-        line-height: 59px;
-        margin-bottom: .3rem;
-    
-    
-    }
-    
-    .music--right p{
-        width:100%;
-        font-size: .7rem;
-        line-height: 25px;
 
-    }
+    
 
     .full-height{
         height:80%;
@@ -261,9 +201,9 @@
     }
 
     .less-height{
-        height:60%;
+        height:59%;
         overflow-y: hidden;
-        transition: .2s ease-in;
+        transition: .3s ease-in;
     }
 
     .more-btn{

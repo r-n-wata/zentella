@@ -45,7 +45,7 @@ export default function SliderShow() {
 
       <div className="container-dots">
         {Array.from({length:4}).map((item, index) =>(
-        <div className={slideIndex === index +1 ? 'dot active': 'dot'} onClick={() => moveDot(index +1)}>
+        <div className={slideIndex === index +1 ? 'dot active': 'dot'} onClick={() => moveDot(index +1)} key={index}>
 
         </div>))}
       </div>
