@@ -122,7 +122,7 @@
 
     width:20%;
         gap:1.5rem;
-        padding:0 0 0rem 1.7rem;;
+        padding:0 0 1rem 1.7rem;;
         height:95%;
         
     }
@@ -148,7 +148,7 @@
       }
     
     .main--heading{
-       /* margin-top:-5rem; */
+       margin-top:-3rem;
         /* width:75%; */
         padding-right:1.5rem;
       
