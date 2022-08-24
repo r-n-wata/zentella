@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import '../css/Music.css'
-import ReactPlayer from "react-player"
 import Aos from "aos";
 import 'aos/dist/aos.css'
 
