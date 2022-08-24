@@ -7,27 +7,16 @@ export default function Music(){
 
     const background = require('../imgs/background-light.avif')
     
-    const [more, setMore] = useState(false)
     useEffect(() => {
         Aos.init({ offset:400, duration: 2000 })
     }, [])
 
-    const handleClick = () => {
-        setMore(prevState => !prevState)
-    }
+
 
     return (
-        <section className="music" id={!more ? "music" : 'music music-height'}>
+        <section className="music" id="music">
             <img src={ background } alt='background' className='background'/>
 
-            {/* {!more && <div data-aos='fade-right' className=" music-souncloud-widget" id='widget'>
-
-                <ReactPlayer
-                    url="https://soundcloud.com/javier-zentella/sh-sh-sh"
-                    className='react-player'
-                />
-
-            </div>} */}
               
             <section data-aos='fade-left' className="music--right">
                 <input type='checkbox' id='check'/>
