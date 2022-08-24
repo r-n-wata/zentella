@@ -21,14 +21,14 @@ export default function Music(){
         <section className="music" id="music">
             <img src={ background } alt='background' className='background'/>
 
-            {!more && <div data-aos='fade-right' className=" music-souncloud-widget" id='widget'>
+            {/* {!more && <div data-aos='fade-right' className=" music-souncloud-widget" id='widget'>
 
                 <ReactPlayer
                     url="https://soundcloud.com/javier-zentella/sh-sh-sh"
                     className='react-player'
                 />
 
-            </div>}
+            </div>} */}
               
             <section data-aos='fade-left' className={more ? "music--right full-height" : "music--right less-height"}>
                 <h2 className="music--title">Sobre su música:</h2>

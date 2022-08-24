@@ -47,7 +47,7 @@
     mix-blend-mode: normal;
 }
 
-.soundcloud-player{
+/* .soundcloud-player{
     right:0;
     width:25%;
     height:17rem;
@@ -59,6 +59,29 @@
     right:0;
     width:100% !important;
     height:100% !important;
+} */
+
+
+.soundcloud-player{
+    /* right:0;
+    width:50%;
+    height:10rem;
+    position: absolute;
+    bottom:8rem;
+    right:-2rem; */
+    position: relative;
+    /* padding-top: 56.25%; */
+    /* border:1px solid red; */
+    width:20%;
+    height:40%;
+    margin-right:10rem;
+    filter: brightness(75%);
+}
+
+.react-player{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 
@@ -104,14 +127,14 @@
        
     }
 
-    .soundcloud-player{
+    /* .soundcloud-player{
         right:0;
         width:30%;
         height:10rem;
         position: absolute;
         bottom:8rem;
         right:-2rem;
-    }
+    } */
     
     
     .about--title{
@@ -189,14 +212,27 @@
     }
 
     .soundcloud-player{
-        right:0;
+        /* right:0;
         width:50%;
         height:10rem;
         position: absolute;
         bottom:8rem;
-        right:-2rem;
+        right:-2rem; */
+        position: relative;
+        /* padding-top: 56.25%  */
+        width:50%;
+        height:40%;
+        margin-right:10rem;
+        bottom:-20rem;
+        left:7rem;
+        
     }
     
+    .react-player{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
     
     .about--title{
         font-family: 'Italiana';
