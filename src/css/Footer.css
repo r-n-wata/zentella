@@ -13,3 +13,9 @@
     font-size:1rem;
     font-family: 'Italiana';
 }
+
+@media (max-width:1000px){
+    .footer h5{
+        font-size: .8rem;
+    }
+}

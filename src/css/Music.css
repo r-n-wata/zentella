@@ -9,7 +9,9 @@
     
     
 }
-
+#check{
+    display: none;
+}
 .background{
     width:110%;
     height:110%;
@@ -171,6 +173,10 @@
 
     }
 
+    .footer{
+        font-size:.6rem
+    }
+
 }
 
 /* phones */
@@ -178,14 +184,15 @@
 
     .music{
         height:90vh;
-        
+        justify-content: center;
+        padding-bottom:0;
      
     }
     
     .music--right{
-      
-        height: 50%;
-        margin-top:5rem;
+        width:80%;
+        height: auto;
+        margin-top:0rem;
      
     }
 
@@ -196,23 +203,49 @@
         top:39rem;
     }
 
-    /* iframe{
-        width:0 !important;
-        height:
-    } */
+    .music--title{
+        width:100%;
+        font-size: 2rem;;
+        margin-bottom: 0rem;
 
+    }
+
+    .music--right p{
+        width:100%;
+        font-size: .7rem;
+        line-height: 25px;
+        text-align: justify;
+        
+
+    }
+
+    .more{
+        display:none;
+        transition: 1s linear;
+    }
+
+    label{
+        display: inline-block;
+        cursor: pointer;
+        font-weight: 800;
+    }
     
-
-    .full-height{
-        height:90%;
-        transition: .2s ease-in;
+    #check:checked ~ .more{
+        display: block;
+    }
+    
+    #check:checked ~ label{
+        visibility: hidden;
+    
     }
 
-    .less-height{
-        height:59%;
-        overflow-y: hidden;
-        transition: .3s ease-in;
+    #check:checked ~ label:after{
+        content: 'lei menos';
+        display: block;
+        visibility: visible;
     }
+
+
 
     .more-btn{
         display: flex;
@@ -222,6 +255,8 @@
     .more-btn:hover{
         background-color: rgb(19, 19, 19, .5);
     }
+
+   
 
 }
 
