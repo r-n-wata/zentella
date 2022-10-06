@@ -240,7 +240,7 @@
     }
 
     #check:checked ~ label:after{
-        content: 'lei menos';
+        content: 'Leer menos';
         display: block;
         visibility: visible;
     }

@@ -25,7 +25,7 @@ export default function Music(){
                 
                 <p className="more">El objetivo principal de su música es tocar el alma de quienes lo escuchan y sensibilizar el espíritu con el fin de liberarlo y entregarse enteramente a su disfrute. Otros artistas que lo han influenciado podrían ser, Miles Davis, The badplus, Yasser Tejeda, así como de su colega Juan Miguel Rivera.
                     </p> 
-                <label for='check'>Lei mas...</label>
+                <label for='check'>Lee mas...</label>
                 
             </section>
 
