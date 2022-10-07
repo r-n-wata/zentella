@@ -5,7 +5,7 @@ import Navbar from './Navbar'
 export default function HomePage(){
 
     return(
-        <main className='bg-homepage bg-fixed h-screen bg-center w-full text-gray-200 flex bg-cover bg-no-repeat overflow-x-hidden' id="home">
+        <main className='bg-homepage h-screen bg-center w-full text-gray-200 flex bg-cover bg-no-repeat overflow-x-hidden' id="home">
 
             <div className='w-28  h-full gap-20 flex flex-col desktop:w-1/2 desktop:relative '>
                 <Navbar />
