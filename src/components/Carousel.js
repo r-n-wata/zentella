@@ -29,7 +29,7 @@ export default function SliderShow() {
 
   const showImages = carouselImgs.map((obj, i) =>{
    return( <div className={slideIndex === i +1 ? 'slide active-anim' : 'slide'} key={obj.key} >
-      <img src={obj.image} alt='artist photos'/>
+      <img src={obj.image} alt='artist photos' />
     </div>
    )
   })

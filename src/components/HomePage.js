@@ -1,32 +1,33 @@
 import React from 'react'
-import '../css/HomePage.css'
 import Navbar from './Navbar'
 
 
 export default function HomePage(){
 
     return(
-        <main className='home' id="home">
+        <main className='bg-homepage bg-fixed h-screen bg-center w-full text-gray-200 flex bg-cover bg-no-repeat overflow-x-hidden' id="home">
 
-            <div className='main--side'>
+            <div className='w-1/2 h-full gap-20 flex flex-col'>
                 <Navbar />
 
-                <div className='main--social'>
+                <div className='flex flex-col gap-8 justify-end pb-6 pl-14 h-full -ml-8 w-full desktop:pl-20'>
 
-                    <a href='https://www.facebook.com/jzentella'><img src='/images/icons/icons8-facebook-50.png' alt='facebook--link' className='main--social-icon'/></a>
+                    <a href='https://www.facebook.com/jzentella'><img src='/images/icons/icons8-facebook-50.png' alt='facebook--link' className='w-8 '/></a>
 
-                    <a href='http://instagram.com/zentella_ja'><img src='/images/icons/icons8-instagram-24.png' alt='instagram--link' className='main--social-icon'/></a>
+                    <a href='http://instagram.com/zentella_ja'><img src='/images/icons/icons8-instagram-24.png' alt='instagram--link' className='w-8 '/></a>
 
                     {/* <a href=''><img src='/images/icons/icons8-youtube-24.png' alt='youtube--link' className='main--social-icon'/></a> */}
 
-                    <a href='https://soundcloud.com/javier-zentella'><img src='/images/icons/icons8-soundcloud-50.png' alt='soundcloud--link' className='main--social-icon'/></a>
+                    <a href='https://soundcloud.com/javier-zentella'><img src='/images/icons/icons8-soundcloud-50.png' alt='soundcloud--link' className='w-8'/></a>
                 </div>
 
             </div>
 
-            <div className='main--heading'>
-                <h1 className='main--firstname'><span>J</span>avier</h1>
-                <h2 className='main--surname'><span>Z</span>entella</h2>
+            <div className='-mt-12 pr-6 w-full flex flex-col items-end justify-center text-gray-100 text-shadow'>
+                <h1 className='text-5xl font-medium drop-shadow-md mb-0 text-gray-100 h-auto overflow-y-hidden tablet:text-6xl desktopt:text-7xl font-mink '><span>J</span>avier</h1>
+                <h2 className='text-6xl mt-4 text-gray-100 h-auto overflow-y-hidden tablet:text-7xl desktop:text-8xl font-mink'><span className='text-orange-400'>Z</span>entella</h2>
+
+                
 
             </div>
      
