@@ -14,7 +14,7 @@ export default function About(){
 
     
     return(
-        <section className="bg-about h-screen flex flex-col relative pt-10 desktop:flex-row  desktop:items-center" id="about">
+        <section className="bg-about h-[115vh] flex flex-col relative pt-10 desktop:flex-row  desktop:items-center desktop:h-screen" id="about">
 
             <section data-aos='fade-right' className="w-3/4 pt-10 pr-6 pb-20 pl-6 h-auto bg-black flex flex-col items-end abolute left-0 top-8 text-gray-100 desktop:w-1/2 desktop:">
 
