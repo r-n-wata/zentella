@@ -7,7 +7,7 @@ export default function HomePage(){
     return(
         <main className='bg-homepage bg-fixed h-screen bg-center w-full text-gray-200 flex bg-cover bg-no-repeat overflow-x-hidden' id="home">
 
-            <div className='w-28 absolute z-0 h-full gap-20 flex flex-col desktop:w-1/2 desktop:relative '>
+            <div className='w-28  h-full gap-20 flex flex-col desktop:w-1/2 desktop:relative '>
                 <Navbar />
 
                 <div className='flex flex-col gap-8 justify-end pb-6 ml-8  h-full w-full  desktop:pl-4'>

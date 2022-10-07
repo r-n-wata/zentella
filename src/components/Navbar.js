@@ -14,7 +14,7 @@ export default function Navbar(){
 
 
     return (
-        <div className="navbar" style={{width: !open && '20%'}}>    
+        <div className="navbar fixed z-40" style={{width: !open && '20%'}}>    
             <div className="navbar--toggle">
                 {open && <img src='/images/icons/openNav.png' alt="open nav icon" className="openNav--img" onClick={toggleOpenClose}/> }
                 {/* // : <div className="close--img-container">
