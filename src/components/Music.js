@@ -14,7 +14,7 @@ export default function Music(){
 
 
     return (
-        <section className="h-[120vh] flex justify-center flex-col overflow-hidden relative items-center w-full desktop:h-screen" id="music">
+        <section className="h-auto flex justify-center flex-col overflow-hidden relative pt-20 pb-20 items-center w-full desktop:h-screen" id="music">
             <img src={ background } alt='background' className='background desktop:w-screen desktop:h-screen desktop:h-[110vh] w-full desktop:absolute'/>
 
               
