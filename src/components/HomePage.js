@@ -25,7 +25,7 @@ export default function HomePage(){
 
             <div className='-mt-12 pr-6 w-full flex flex-col items-end justify-center text-gray-100 text-shadow'>
                 <h1 className='text-5xl font-medium drop-shadow-md mb-0 text-gray-100 h-auto overflow-y-hidden tablet:text-6xl desktopt:text-7xl font-mink '><span>J</span>avier</h1>
-                <h2 className='text-6xl mt-4 text-gray-100 h-auto overflow-y-hidden tablet:text-7xl desktop:text-8xl font-mink'><span className='text-orange-400'>Z</span>entella</h2>
+                <h2 className='text-6xl mt-4 text-gray-100 h-auto overflow-y-hidden tablet:text-7xl desktop:text-8xl font-mink w-full tablet:w-auto'><span className='text-orange-400'>Z</span>entella</h2>
 
                 
 

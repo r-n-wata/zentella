@@ -269,7 +269,7 @@
 
     .background{
         width:500%;
-        margin-left:15rem;
+        /* margin-left:15rem; */
         height:110%;
         position: absolute;
         top:-2rem;
