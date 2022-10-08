@@ -5,7 +5,7 @@ import 'aos/dist/aos.css'
 
 export default function Music(){
 
-    const background = require('../imgs/background-light.avif')
+    const background = require('../imgs/back.jpg')
     
     useEffect(() => {
         Aos.init({ offset:400, duration: 2000 })
@@ -15,7 +15,7 @@ export default function Music(){
 
     return (
         <section className="h-auto flex justify-center flex-col overflow-hidden relative pt-20 pb-20 items-center w-full desktop:h-screen" id="music">
-            <img src={ background } alt='background' className='background brightness-50 absolute min-h-[200vh] object-cover  desktop:h-[110vh] tablet:min-h-[100vh]  desktop:w-screen '/>
+            <img src={ background } alt='background' className='background brightness-50 absolute min-h-[170vh] object-cover  desktop:h-[110vh] tablet:min-h-[100vh]  desktop:w-screen '/>
 
               
             <section data-aos='fade-left' className="pt-8 pb-8 pl-8 pr-8 bg-black flex flex-col items-center w-4/5 text-gray-100">
