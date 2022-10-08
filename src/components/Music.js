@@ -15,7 +15,7 @@ export default function Music(){
 
     return (
         <section className="h-auto flex justify-center flex-col overflow-hidden relative pt-20 pb-20 items-center w-full desktop:h-screen" id="music">
-            <img src={ background } alt='background' className='background brightness-50 max-w-[270%] h-[110vh] desktop:h-screen tablet:h-[120vh] desktop:h-[150vh] tablet:max-w-[100%] h-screen absolute desktop:w-[100vw] '/>
+            <img src={ background } alt='background' className='background brightness-50 absolute min-h-[130vh] object-cover  desktop:h-[110vh] tablet:min-h-[100vh]  desktop:w-screen '/>
 
               
             <section data-aos='fade-left' className="pt-8 pb-8 pl-8 pr-8 bg-black flex flex-col items-center w-4/5 text-gray-100">
