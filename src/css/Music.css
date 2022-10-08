@@ -1,20 +1,10 @@
-.music{
-    height:130vh;
-    display:flex;
-    position:relative;
-    align-items: center;
-    justify-content: center;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    
-    
-}
+
 #check{
     display: none;
 }
 .background{
-    width:110%;
-    height:110%;
+    /* width:110%; */
+    /* height:110%; */
     z-index:-4;
     position:relative;
     animation-name : mymove;
@@ -33,56 +23,7 @@
   }
 
 
-  
-.music-souncloud-widget{
-    position: absolute;
-    left:0;
-    width:25%;
-    height:17rem;
-    justify-self: flex-start;
-    margin-left:5rem; 
 
-}
-
-.react-player{
-    width:50%;
-}
-
-.music--right{
-    width:80%;
-    position:absolute;
-    background-color: black;
-    /* right:0rem;
-    left:0; */
-    color:white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding:3rem 3.1rem; 
-    border:2px solid rgb(102, 102, 102);
-    
-}
-
-.music--title{
-    font-family: 'Italiana';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 59px;
-    margin-bottom: .6rem;
-
-}
-
-.music--right p{
-    width:90%;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 36px;
-    text-align: left;
-    letter-spacing: 0.095em;
-    color: #FFFFFF;
-    mix-blend-mode: normal;
-}
 
 .hidden{
     display: none;
@@ -90,134 +31,10 @@
 
 
 /* ------------------------------ */
-/* laptop */
-@media(max-width:1200px){
-    .music{
-        height:140vh;
-        /* padding:10rem 0; */
-    }
-    .music--right{
-        width:60%;
-        height:70%
-    }
-
-    .music-souncloud-widget{
-        height:13rem;
-    }
-    
-    .music--right p {
-        width:95%;
-    }
-}
-
-/* tablet */
-@media(max-width:1000px){
-
-    .music{
-        height:80vh;
-        display:flex;
-        flex-direction: column;
-        overflow: hidden;
-        padding-bottom:3rem;
-     
-    }
-    
-
-    .music--right{
-        width:70%;
-        height:40%;
-        margin-top:10rem;
-        padding:2.5rem 1.5rem;
-        background-color: black;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        transition: 1s ease-in;
-
-    }
-    .background{
-        width:300%;
-        height:110%;
-        position: absolute;
-        top:-2rem;
-        overflow-x: hidden;  
-    
-    }
-
-   .music-souncloud-widget{
-        z-index: 4;
-        width:30%;
-        height:10rem;
-        top:33rem;
-        left:-2rem; 
- 
-        
-    }
-    
-    .music--title{
-        width:100%;
-        font-family: 'Italiana';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 2.5rem;;
-        line-height: 59px;
-        margin-bottom: .3rem;
-    
-    
-    }
-    
-    .music--right p{
-        width:100%;
-        font-size: .7rem;
-        line-height: 25px;
-
-    }
-
-    .footer{
-        font-size:.6rem
-    }
-
-}
 
 /* phones */
 @media (max-width:550px){
 
-    .music{
-        height:90vh;
-        justify-content: center;
-        padding-bottom:0;
-     
-    }
-    
-    .music--right{
-        width:80%;
-        height: auto;
-        margin-top:0rem;
-     
-    }
-
-    
-
-   .music-souncloud-widget{
-        width:50%;   
-        top:39rem;
-    }
-
-    .music--title{
-        width:100%;
-        font-size: 2rem;;
-        margin-bottom: 0rem;
-
-    }
-
-    .music--right p{
-        width:100%;
-        font-size: .7rem;
-        line-height: 25px;
-        text-align: justify;
-        
-
-    }
 
     .more{
         display:none;
@@ -258,32 +75,5 @@
 
    
 
-}
-
-@media (max-width:390px){
-    .music{
-        height:90vh;
-       
-     
-    }
-
-    .background{
-        width:500%;
-        /* margin-left:15rem; */
-        height:110%;
-        position: absolute;
-        top:-2rem;
-        overflow-x: hidden;
-        
-    
-    }
-}
-
-
-
-@media (max-width:380px){
-    .music{
-        height:90vh;
-    }
 }
 
